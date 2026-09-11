@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app: let React handle all routes (this app also uses
+# #hash-based routing internally, so this mainly matters for direct loads).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
