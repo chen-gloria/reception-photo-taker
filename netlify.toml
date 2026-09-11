@@ -2,6 +2,12 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  # Tells vite.config.ts to build with base '/' instead of the GitHub Pages
+  # subpath. Explicit (rather than relying on Netlify's own NETLIFY env var)
+  # so it also applies to local `netlify deploy` runs, not just cloud builds.
+  VITE_BASE = "/"
+
 # Single-page app: let React handle all routes (this app also uses
 # #hash-based routing internally, so this mainly matters for direct loads).
 [[redirects]]
