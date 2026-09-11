@@ -1,5 +1,9 @@
 # Reception Photo Taker
 
+Live at:
+- GitHub Pages: https://chen-gloria.github.io/reception-photo-taker/
+- Netlify: https://reception-photo-taker.netlify.app
+
 A tiny, zero-database web app for weddings & events. Guests type their name,
 then snap/upload photos that land straight in your shared Google Drive
 folder, and browse everyone else's photos on a live photo wall.
